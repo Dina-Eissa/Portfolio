@@ -37,9 +37,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Screenshots
 
 ```
-![ScreenShot](./assets/screenshot1.png)
-![ScreenShot](./assets/screenshot2.png)
-![ScreenShot](./assets/screenshot3.png)
-
+![screenshot1](https://user-images.githubusercontent.com/106943599/175508204-9f3e4c98-7861-4610-acae-00f6aa9d9c46.png)
+![screenshot2](https://user-images.githubusercontent.com/106943599/175508255-d2421cc9-56c6-40db-93a6-68e506f6329d.png)
+![screenshot3](https://user-images.githubusercontent.com/106943599/175508291-a3315498-4d38-425c-8959-73d66ffb0614.png)
 
 ```
