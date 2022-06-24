@@ -1,0 +1,319 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: auto;
+  background-color: white;
+}
+
+/* Navigation Bar */
+.nav_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  border-bottom: 1px solid rgb(192, 192, 192);
+  text-align: right;
+  box-shadow: 0px 0px 6px 5px #0000000f;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.social_media {
+  float: left;
+  display: inline;
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+.social_media li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 5px;
+  font-size: 30px;
+}
+
+.nav_ul {
+  padding-right: 50px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+.nav_ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 20px;
+}
+.nav_bar a {
+  text-decoration: none;
+  color: #eea140;
+}
+.nav_bar a:hover {
+  text-decoration: none;
+  color: #3b5df5;
+  transition: all 1s ease-in-out;
+}
+.btn_display {
+  display: none;
+}
+
+/*Name Style*/
+.name_logo {
+  position: relative;
+  display: block;
+  top: 5px;
+  left: 20px;
+  float: left;
+  line-height: 20px;
+  color: #eea140;
+}
+
+/*Main Image Style*/
+.main_sec {
+  text-align: center;
+  margin: 50px auto;
+  float: left;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  box-shadow: 3px 3px 5px #b7b2b2;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+.main_figure {
+  position: relative;
+  z-index: -1000;
+}
+.main_caption {
+  position: absolute;
+  top: 15%;
+  right: 2%;
+  margin: 0;
+  width: 20%;
+  padding: 15px 1%;
+  background-color: #cfdcdf40;
+  color: #56aaff;
+  font-weight: bold;
+  height: 70%;
+  justify-content: center;
+}
+
+/*About Section Style*/
+.about_contain {
+  float: left;
+  margin: 0px auto 20px auto;
+  width: 100%;
+}
+.side_head {
+  float: left;
+  text-align: right;
+  width: 13%;
+  padding: 20px;
+}
+.about_p {
+  float: left;
+  border-left: 3px solid #eea140;
+  width: 80%;
+  padding: 1%;
+  line-height: 25px;
+}
+
+/*Work Section Style*/
+.container_work {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 20px;
+  float: left;
+  border-left: 3px solid #eea140;
+  width: 80%;
+}
+.work_box {
+  flex: 2 1 40%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b9cece;
+  width: 20%;
+  height: 250px;
+  margin: 10px 0 0 2%;
+  float: left;
+  filter: opacity(50%);
+  transition: all 1s ease-out;
+}
+
+.work_box img {
+  border: 1px solid #018afa0f;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work_box.first {
+  flex: 2 1 100%;
+}
+
+.work_box:hover {
+  /* flex: 2 1 250px;*/
+  filter: opacity(1);
+}
+
+.work_caption {
+  bottom: 10px;
+  margin-bottom: 20px;
+  position: absolute;
+  display: block;
+  left: 11px;
+  padding: 20px;
+  background-color: #eea140;
+  color: white;
+}
+
+/*Contact Style*/
+.cont_bar {
+  margin: 0px auto 20px auto;
+}
+.contact_contain {
+  width: 80%;
+  float: left;
+  border-left: 3px solid #eea140;
+  padding: 20px 0;
+}
+.social_contact {
+  float: left;
+  display: inline;
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+.social_contact li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 5px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.social_contact li a {
+  color: #605f5f;
+  text-decoration: none;
+}
+.social_contact li a:hover {
+  color: #3b5df5;
+  text-decoration: none;
+}
+
+footer {
+  height: 20px;
+  width: 100%;
+  background-color: whitesmoke;
+  border-top: 1px solid #dedee0;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 0;
+  }
+  .main_caption p {
+    font-size: 14px;
+  }
+  .main_caption h1 {
+    font-size: 18px;
+  }
+  .main_caption h3 {
+    font-size: 16px;
+  }
+  .side_head {
+    padding: 15px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /*Nav Bar*/
+  .btn_display {
+    display: inline;
+    position: relative;
+    font-size: 20px;
+  }
+  .nav_btn {
+    color: #eea140;
+    float: right;
+    display: block;
+    position: absolute;
+    right: 0;
+    float: right;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .nav_btn:hover {
+    color: #3b5df5;
+    transition: all 1s ease-in-out;
+  }
+  .nav_ul {
+    display: none;
+  }
+  .nav_btn:hover .nav_ul {
+    display: inline;
+    position: absolute;
+    right: 0;
+    color: #eea140;
+    float: right;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    top: 25px;
+  }
+  .nav_ul li {
+    line-height: 30px;
+  }
+
+  /*Main Slide*/
+  .logo {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 0;
+  }
+  .main_caption {
+    width: 25%;
+    height: 85%;
+    padding-top: 0;
+  }
+  .main_caption p {
+    font-size: 10px;
+  }
+  .main_caption h1 {
+    font-size: 16px;
+  }
+  .main_caption h3 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .side_head {
+    width: 10%;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .social_contact {
+    margin-top: 0px;
+  }
+  .social_contact li {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+}
