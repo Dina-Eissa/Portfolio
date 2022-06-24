@@ -290,31 +290,31 @@ footer {
     padding-top: 0;
   }
   .main_caption p {
-    font-size: 10px;
+    display: none;
   }
   .main_caption h1 {
     font-size: 16px;
   }
   .main_caption h3 {
-    font-size: 12px;
+    Display: none;
   }
-
+  /*Main Page Content*/
   p {
     font-size: 14px;
   }
   .side_head {
     width: 15%;
-    padding: 20px;
+    padding: 15px;
     font-size: 18px;
   }
-  .about_p{
-    width:75%;
+  .about_p {
+    width: 70%;
   }
-  .container_work{
-    width:75%;
+  .container_work {
+    width: 70%;
   }
-  .contact_contain{
-    width:75%;
+  .contact_contain {
+    width: 70%;
   }
 
   .social_contact {
