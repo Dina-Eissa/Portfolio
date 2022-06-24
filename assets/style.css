@@ -303,9 +303,18 @@ footer {
     font-size: 14px;
   }
   .side_head {
-    width: 10%;
-    padding: 10px;
+    width: 15%;
+    padding: 20px;
     font-size: 18px;
+  }
+  .about_p{
+    width:75%;
+  }
+  .container_work{
+    width:75%;
+  }
+  .contact_contain{
+    width:75%;
   }
 
   .social_contact {
